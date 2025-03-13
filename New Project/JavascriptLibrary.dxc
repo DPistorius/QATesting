@@ -6,9 +6,9 @@
       <Assembly key="scrollPosition" valuetype="integer">0</Assembly>
     </Attributes>
   </State>
-  <LastSelectedItem>JavascriptLibrary</LastSelectedItem>
-  <ModifiedOn>2025-03-13T11:53:10.0001074+00:00</ModifiedOn>
-  <ModifiedBy>ORBIS\dpistorius</ModifiedBy>
+  <LastSelectedItem>JavascriptLibrary~jQuery.validator</LastSelectedItem>
+  <ModifiedOn />
+  <ModifiedBy />
   <item qn="JavascriptLibrary~jQuery.-~format">
     <exclude ChangeDateTime="2013-04-16T15:48:54.564424Z" />
     <exclude_toc ChangeDateTime="2013-04-16T15:48:56.7706446Z" />
@@ -203,6 +203,10 @@ $(function() {
   });
 });</examplecode>
     <exampleintro ChangeDateTime="2016-08-21T11:14:34.7941863Z">The following example illustrates how jQuery.validator might be used to validate a registration form.</exampleintro>
+    <summary ChangeDateTime="2025-03-13T15:09:40.5800658Z">Summary</summary>
+  </item>
+  <item qn="JavascriptLibrary~jQuery.-">
+    <exampleintro ChangeDateTime="2025-03-13T14:53:16.5983882Z">e</exampleintro>
   </item>
   <Filters>
     <CONTENTSTORECOMMON>

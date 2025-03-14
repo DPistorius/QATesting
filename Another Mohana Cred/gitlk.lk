@@ -1,1 +1,32 @@
-{}
+{
+  "\\New Project15.dxp": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-03-14T10:52:34.6223918Z",
+    "B": "Testing"
+  },
+  "\\JavascriptLibrary.dxc": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-03-14T10:52:34.6223918Z",
+    "B": "Testing"
+  },
+  "\\projectdata\\glossary.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-03-14T10:52:34.6223918Z",
+    "B": "Testing"
+  },
+  "\\stylesheets\\customstyles.css": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-03-14T10:52:34.6223918Z",
+    "B": "Testing"
+  },
+  "\\projectdata\\tasks.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-03-14T10:52:34.6223918Z",
+    "B": "Testing"
+  },
+  "\\projectdata\\tableofcontents.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-03-14T10:52:34.6223918Z",
+    "B": "Testing"
+  }
+}

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <members>
+    <member name="M:jQuery.qs.infobox.hideTagLinks">
+      <summary>Hide any links that are currently visible</summary>
+      <returns type="void"></returns>
+    </member>
+    <member name="M:jQuery.qs.infobox.displayTagLinks">
+      <summary>Displays links fetched via an AJAX call</summary>
+      <returns type="void"></returns>
+      <param name="event" type="Object"></param>
+      <param name="tagName" type="String"></param>
+    </member>
+    <member name="F:jQuery.qs.infobox.options.dataUrl">
+      <summary>Base URL used to in an AJAX request to fetch links that will be displayed</summary>
+      <example>
+        <code lang="javascript">
+var infobox = $("body").infobox({
+    dataUrl: "http://feeds.delicious.com/v2/json/popular/";
+});
+</code>
+      </example>
+    </member>
+    <member name="F:jQuery.qs.infobox.options.maxItems">
+      <summary>The maximum number of links to display</summary>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <members>
+    <member name="M:-.Router.init">
+      <summary>Initialize the router, start listening for changes to the URL.</summary>
+      <param name="r">This value will be used if '/#/' is not found in the URL. (e.g., init('/') will resolve to '/#/', init('foo') will resolve to '/#foo').</param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.explode"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.setRoute">
+      <summary>Remove a segment from the current route.</summary>
+      <param name="i">The position at which to start removing items</param>
+      <param name="v">The number of items to remove from the route</param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.insertEx">
+      <summary>insert a callback that will only occur once per the matched route.</summary>
+      <param name="method">Method to insert the specific `route`.</param>
+      <param name="path">Parsed path to insert the `route` at.</param>
+      <param name="route">Route handlers to insert.</param>
+      <param name="parent">Parent "routes" to insert into.</param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.getRoute">
+      <summary>Returns the entire route or just a section of it.</summary>
+      <param name="v">The hash value is divided by forward slashes, each section then has an index, if this is provided, only that section of the route will be returned.</param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.destroy"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.getPath"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.configure">
+      <summary>Given the flexible nature of director there are several options available for both the Client-side and Server-side. These options can be set using the .configure() method</summary>
+      <param name="options"></param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.param">
+      <summary>Adds a route fragment for the given string token to the specified regex matcher to this Router instance. See URL Parameters for more documentation.</summary>
+      <param name="token">Named parameter token to set to the specified matcher</param>
+      <param name="matcher">Matcher for the specified token</param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.on">
+      <summary>Adds the route handler for the specified method and path within the Routing Table.</summary>
+      <param name="method">Method to insert within the Routing Table (e.g. on, get, etc.)</param>
+      <param name="path">Path within the Routing Table to set the route to</param>
+      <param name="route">Route handler to invoke for the method and path.</param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.dispatch">
+      <summary>Dispatches the route handlers matched within the Routing Table for this instance for the specified method and path.</summary>
+      <param name="method">Method to invoke handlers for within the Routing Table</param>
+      <param name="path">Path within the Routing Table to match</param>
+      <param name="callback">Invoked once all route handlers have been called.</param>
+      <returns></returns>
+    </member>
+    <member name="M:-.Router.invoke"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.traverse"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.insert"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.extend"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.runlist"><![CDATA[
+			
+			]]></member>
+    <member name="M:-.Router.mount">
+      <summary>Inserts the partial Routing Table, routes, into the Routing Table for this Router instance at the specified path.</summary>
+      <param name="routes">Partial routing table to insert into this instance.</param>
+      <param name="path">Path within the Routing Table to insert the routes into.</param>
+      <returns></returns>
+    </member>
+  </members>
+</doc>
